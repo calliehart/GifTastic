@@ -1,0 +1,80 @@
+body {
+
+}
+
+header {
+    background:#636e72;
+    width: 100%;
+    color: #fff;
+    padding: 50px 0 10px 20px;
+    
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+}
+
+.imgResults {
+    float: left;
+    display: block;
+    margin: 20px;
+}
+
+.topicBtn {
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: #6c5ce7;
+    border: 2px #6c5ce7 solid;
+}
+
+.topicBtn:hover {
+    background-color: #a29bfe;
+    border: 2px #a29bfe solid;
+}
+
+#addEmotion {
+    background-color: #fdcb6e;
+    border: 2px #fdcb6e solid;
+    margin: 50px 0 30px 10px;
+    
+}
+
+#addEmotion:hover { 
+    background-color: #ffeaa7;
+    border: 2px #ffeaa7 solid;
+
+}
+
+#emotionInput {
+    width: 85%;
+    height: 40px;
+    padding: 10px;
+    margin: 50px 0 30px 20px;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 640px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    #newBtn {
+        text-align: center;
+    }
+
+    #addEmotion {
+        margin: 10px 0 20px 0px;
+        width: 70%;
+    }
+
+    #emotionInput {
+        margin: 20px 0 10px 0px;
+        width: 90%;
+    }
+
+    #gifsDiv {
+        text-align: center;
+    }
+
+}
