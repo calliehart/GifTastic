@@ -20,7 +20,7 @@
 
         $(".topicBtn").on("click", function() {
             topic = $(this).attr("data-topic");
-            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + API_KEY + "&rating=g&limit=10";
+            var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topic + API_KEY + "&rating=pg-13&limit=10";
     
             $.ajax({
                 url: queryURL,
